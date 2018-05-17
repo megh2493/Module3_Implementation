@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+#header-nav {
+  background-color: lightSteelBlue;
+  border-radius: 0;
+  border: 2px solid;
+}
+
+.navbar-header h1 {/*brand*/
+  margin:  15px auto 20px 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  line-height: 0.75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+/*fix the header display*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+#collapsable-nav ul{
+  background-color: #EBF4FE;
+  margin-top: 0;
+  margin-bottom: 0;
+}
